@@ -1,0 +1,184 @@
+@media (min-width: 360px) and (max-width: 500px){
+    .bg-img {
+        background-position: right;
+        background-size: cover;
+        height: 100vh;
+        background-repeat: no-repeat;
+    }
+    .top-head{
+        display: none;
+    }
+    .form-control {
+        margin: 10px 0;
+    }
+    .owl-prev{
+        display: none !important;
+    }
+    
+    .owl-next{ 
+        display: none !important;
+    }
+
+    .box-left::before{
+        height: 320px;
+        width: 340px;
+    }
+    
+    .box-left img{
+        height: 330px;
+        width: 320px;
+        
+    }
+
+    .box-container{
+        margin: 100px 0 20px 0;
+    }
+    .box-right{
+        margin: 20px 0;
+    }
+    .background-coupan_relative{
+        display: none;
+    }
+    .background-coupan_relative2{
+        display: none;
+    }
+
+    .coupan-left{
+        order: 2;
+        text-align: center;
+    }
+    .coupan-right{
+        text-align: center;
+    }
+   
+
+    .send-form__left{
+        padding-bottom: 30px;
+    }
+    .top-about{
+        display: none;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 540px){
+    .background-coupan_relative2 {
+        right: -352px;
+    }
+    .background-coupan_relative2 img {
+        height: 100px;
+    }
+    .background-coupan_relative {
+        right: -310px;
+    }
+    .background-coupan_relative img {
+        height: 100px;
+    }
+    .bg-img {
+        background-position: center;
+        height: 100vh;
+    }
+    .form-control {
+        margin: 10px 0;
+    }
+    .top-head,.top-about{
+        display: none;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 768px){
+    .background-coupan_relative img {
+        height: 100px;
+    }
+    .background-coupan_relative2 img {
+        height: 100px;
+    }
+    .background-coupan_relative2 {
+        right: 68px;
+    }
+    .background-coupan_relative {
+        right: 108px;
+    }
+   .box-left{
+    text-align: center;
+   }
+   .box-right{
+    margin: 20px 0;
+}
+
+   .box-container{
+    margin: 100px 0 20px 0;
+}
+.top-head,.top-about{
+    display: none;
+}
+.bg-img {
+    background-position: right;
+    background-size: cover;
+    height: 80vh;
+    background-repeat: no-repeat;
+}
+#tourpackage .owl-prev{
+    position: absolute;
+    top: 100%;
+    right: 10px;
+}
+
+#tourpackage .owl-next{
+    position: absolute;
+    top: 100%;
+    left: 10px;
+}
+.form-control {
+    margin: 10px 0;
+}
+
+}
+
+@media  (min-width: 540px){
+    .bg-img {
+        background-position: center;
+        height: 90vh;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    .bg-img {
+        background-position: center;
+        height: 60vh;
+    }
+    .background-coupan_relative2 img {
+        height: 140px;
+    }
+    .background-coupan_relative img {
+        height: 145px;
+
+    }
+    .form-control {
+        margin: 10px 0;
+    }
+    .top-head,.top-about span {
+        font-size: 13px;
+    }
+
+}
+@media (min-width: 1024px) and (max-width: 1200px){
+    .bg-img {
+        background-position: center;
+        height: 90vh;
+    }
+    .box-left::before{
+        height: 320px;
+        width: 340px;
+    }
+    
+    .box-left img{
+        height: 330px;
+        width: 330px;
+        
+    }
+    .background-coupan_relative2 img {
+        height: 163px;
+    }
+    .background-coupan_relative img {
+        height: 166px;
+    }
+}
